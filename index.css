@@ -1,0 +1,77 @@
+.container {
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    padding-right: 3.5rem;
+    align-items: center;
+}
+
+.container-faq {
+    width: 70rem;
+    height: 35rem;
+    border-radius: 1.5rem;
+    background: url('images/illustration-woman-online-desktop.svg'), url('images/bg-pattern-desktop.svg') white;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: -40px;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.box-img {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -80px;
+}
+
+.faq-title {
+    padding-bottom: 1.8rem;
+    padding-top: 4rem;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.wrapper-question {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+    gap: 1rem;
+    border-bottom: solid 1px hsl(240, 5%, 91%);
+    padding-top: 1rem;
+    width: 27.125rem;
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resp, .resp2, .resp3, .resp4, .resp5 {
+    display: none;
+    color: hsl(240, 6%, 50%);
+
+}
+
+.resp-show {
+    display: block;
+}
+
+.transform {
+    transform: rotate(180deg);
+}
+
+.title-weight {
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Miguel Mendes de Barros">
+  <meta name="description" content="Desafio front-end mentor">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>accordion-card-faq</title>
+</head>
+<body role="banner">
+  <section class="container">
+    <section class="container-faq">
+      <div>
+        <img class="box-img" src="./images/illustration-box-desktop.svg" alt="imagem de uma caixa">
+      </div>
+      <article class="container-asks">
+        <h1 class="faq-title">FAQ</h1>
+        <div onclick="showAnswer1()" class="wrapper-question">
+          <div class="question">
+            <p class="question-1">How many team members can i invite?</p>
+            <img class="img-arrow" src="./images/icon-arrow-down.svg" alt="seta para baixo">
+          </div>
+          <p class="resp">No more than 2GB. All files in your account must fit your allotted storage space</p>
+        </div>
+        <div onclick="showAnswer2()" class="wrapper-question">
+          <div class="question">
+            <p class="question-2">What is the maximum file upload size?</p>
+            <img class="img-arrow2"  src="./images/icon-arrow-down.svg" alt="seta para baixo">
+          </div>
+          <p class="resp2">No more than 2GB. All files in your account must fit your allotted storage space</p>
+        </div>
+        <div onclick="showAnswer3()" class="wrapper-question">
+          <div class="question">
+            <p class="question-3">How do i reset my password?</p>
+            <img class="img-arrow3" src="./images/icon-arrow-down.svg" alt="seta para baixo">
+          </div>
+          <p class="resp3">No more than 2GB. All files in your account must fit your allotted storage space</p>
+        </div>
+        <div onclick="showAnswer4()" class="wrapper-question">
+          <div class="question">
+            <p class="question-4">Can i cancel my subscription?</p>
+            <img class="img-arrow4" src="./images/icon-arrow-down.svg" alt="seta para baixo">
+          </div>
+          <p class="resp4">No more than 2GB. All files in your account must fit your allotted storage space</p>
+        </div>
+        <div onclick="showAnswer5()" class="wrapper-question">
+          <div class="question">
+            <p class="question-5">Do you provide additional support?</p>
+            <img class="img-arrow5" src="./images/icon-arrow-down.svg" alt="seta para baixo">
+          </div>
+          <p class="resp5">No more than 2GB. All files in your account must fit your allotted storage space</p>
+        </div>
+      </article>
+      <script src="index.js"></script>
+</body>
+</html>
