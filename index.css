@@ -49,7 +49,11 @@
     font-weight: 400;
     color: hsl(237, 12%, 33%);
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s;
+}
+
+.wrapper-question:hover{
+    transform: scale(1.01);
 }
 
 .question {
